@@ -1,0 +1,61 @@
+/* Message flashing */
+.flash {
+  background-color: #FBB0B0;
+  padding: 10px;
+  width:100%;
+}
+
+/* Contact form */
+form label {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 10px 0;
+}
+
+form input#name,
+form input#email,
+form input#subject {
+  width: 100%;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  font-size: 1.1em;
+}
+
+form textarea#message {
+width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 1.1em;
+}
+
+form input#submit {
+  display: block;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  border:1px solid #d8d8d8;
+  padding: 10px;
+  width: 100%;
+  font-weight:bold;
+  text-align: center;
+  color: #fff;
+    background-color: #54B689;
+    border-color: #54B689;
+}
+
+form input#submit:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #44a076;
+    border-color: #40976f;}

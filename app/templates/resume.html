@@ -1,0 +1,205 @@
+{% extends 'layout.html' %}
+{% block content %}
+<header class="header text-center">
+	{% block header %}
+	{% include 'navbar.html' %}
+	{% endblock %}
+</header>
+<div class="main-wrapper">
+	<section class="cta-section theme-bg-light py-5">
+		<div class="container text-center single-col-max-width">
+			<h2 class="heading mb-3">Online Resume</h2>
+			<a class="btn btn-primary" href="resume/konel_toth_en_cv.pdf" target="_blank"><i class="fas fa-file-pdf mr-2"></i>Download PDF Version</a>
+
+		</div><!--//container-->
+	</section>
+	<div class="container px-3 px-lg-5">
+		<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+
+			<div class="resume-header">
+				<div class="row align-items-center">
+					<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+						<h2 class="resume-name mb-0 text-uppercase">Kornel Toth</h2>
+						<div class="resume-tagline mb-3 mb-md-0">Software Engineer</div>
+					</div><!--//resume-title-->
+					<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+						<ul class="list-unstyled mb-0">
+							<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" href="">+36706463231</a></li>
+							<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:#">tkornel19@gmail.com</a></li>
+							<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="http://tikona.hu/">tikona.hu</a></li>
+							<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Győr, Hungary</li>
+						</ul>
+					</div><!--//resume-contact-->
+				</div><!--//row-->
+
+			</div><!--//resume-header-->
+			<hr>
+			<div class="resume-intro py-3">
+				<div class="media flex-column flex-md-row align-items-center">
+					<img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="{{ url_for('static', filename='assets/images/profile.jpg')}}" alt="image">
+					<div class="media-body text-left">
+						<p class="mb-0"></p>
+				</div>
+			</div><!--//resume-intro-->
+			<hr>
+			<div class="resume-body">
+				<div class="row">
+					<div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
+						<section class="work-section py-3">
+							<h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
+							<div class="item mb-3">
+								<div class="item-heading row align-items-center mb-2">
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"> Head Of It Department</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Alveola Kft. | 03/2019 - 12/2019 | Hungary, Budapest</div>
+
+								</div>
+								<div class="item-content">
+									<ul class="resume-list">
+										<li>Continuous maintenance of the list of products in the webshop.</li>
+										<li>LAN Switching, routing, simple network troubleshooting.</li>
+										<li>Write HTML, CSS and JavaScript code.</li>
+										<li>Maintenance, development and supervision of information systems.</li>
+										<li>Making banners with Photoshop and EDM with Maileon.</li>
+										<li>Exploring problem areas, speed up workflows with various python-based enhancements.</li>
+									</ul>
+								</div>
+							</div><!--//item-->
+							<div class="item mb-3">
+								<div class="item-heading row align-items-center mb-2">
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Frontend Web Developer</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Excite Hungary Kft., Nemesys Games Kft. | 03/2018 - 03/2019 | Hungary, Budapest</div>
+								</div>
+								<div class="item-content">
+									<ul class="resume-list">
+										<li>Developing simple and complex UI, UX in HTML5, CSS3, JavaScript.</li>
+										<li>Implement responsive designs in CSS3, JavaScript.</li>
+										<li>Developing websites for high goals.</li>
+										<li>Optimising websites desktop, tablet, mobile.</li>
+										<li><a href="https://www.bonuszbrigad.hu/">https://www.bonuszbrigad.hu/</a></li>
+										<li><a href="https://www.fireflies.com/">https://www.fireflies.com</a></li>
+									</ul>
+								</div>
+							</div><!--//item-->
+							<div class="item mb-3">
+								<div class="item-heading row align-items-center mb-2">
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"> Software Developer</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">ARH ZRT. | 06/2015 - 01/2018 | Hungary, Budapest </div>
+								</div>
+								<div class="item-content">
+									<ul class="resume-list">
+										<li>Development of software solutions using Involved in both, front-end and back-end.</li>
+										<li>Technologies: HTML5, CSS3, JavaScript, Python, PHP</li>
+									</ul>
+								</div>
+							</div><!--//item-->
+						</section><!--//work-section-->
+
+
+						<section class="project-section py-3">
+							<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
+							<div class="item mb-3">
+								<div class="item-heading row align-items-center mb-2">
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Intelligent Human Resource Management (03/2020 – Present)</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Django Framework</div>
+								</div>
+							<div class="item-content">
+								<p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							</div>
+							</div><!--//item-->
+							<div class="item mb-3">
+								<div class="item-heading row align-items-center mb-2">
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Job Boot(03/2020 – Present)</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Python Selenium</div>
+								</div>
+							<div class="item-content">
+								<p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							</div>
+							</div><!--//item-->
+						</section><!--//project-section-->
+					</div><!--//resume-main-->
+					<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+						<section class="skills-section py-3">
+							<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
+							<div class="item">
+								<h4 class="item-title">Technical</h4>
+								<ul class="list-unstyled resume-skills-list">
+									<li class="mb-2">JavaScript/React/Vue</li>
+									<li class="mb-2">Python/Django/Flask/Kivy<li>
+									<li class="mb-2">Node.js</li>
+									<li class="mb-2">PostgreSQL/MySQL/SQLITE3</li>
+									<li class="mb-2">Object-oriented design</li>
+									<li class="mb-2">Design and implement database structures</li>
+									<li class="mb-2">Docker</li>
+									<li class="mb-2">Photoshop</li>
+									<li class="mb-2">HTML5/CSS3/SCSS</li>
+									<li class="mb-2">Selenium</li
+									<li class="mb-2">JQuery</li>
+									</ul>
+								</div><!--//item-->
+								<div class="item">
+									<h4 class="item-title">Professional</h4>
+									<ul class="list-unstyled resume-skills-list">
+										<li class="mb-2">Effective communication</li>
+										<li class="mb-2">Team player<li>
+											<li class="mb-2">Strong problem solver</li>
+											<li>Good time management</li>
+										</ul>
+									</div><!--//item-->
+								</section><!--//skills-section-->
+								<section class="education-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
+									<ul class="list-unstyled resume-education-list">
+										<li class="mb-3">
+											<div class="resume-degree font-weight-bold">BA in Computer Engineering</div>
+											<div class="resume-degree-org text-muted">Subotica Tech College Of Applied Sciences</div>
+											<div class="resume-degree-time text-muted">09/2010 - 04/2013</div>
+										</li>
+									</ul>
+								</section><!--//education-section-->
+								<section class="education-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Certificates</h3>
+									<ul class="list-unstyled resume-awards-list">
+										<li class="mb-3">
+											<div class="font-weight-bold"><a href="https://courses.edx.org/certificates/360d6851557746e8929490a3237bec3b">HARVARDX</a></div>
+											<div class="text-muted">AN ONLINE LEARNING INITIATIVE BY HARVARD UNIVERSITY THROUGH EDX (06/2019 – 03/2020)</div>
+										</li>
+										<li>
+											<div class="font-weight-bold">Google IT Automation with Python Specialization</div>
+											<div class="text-muted">(04/2020 – 04/2020)</div>
+										</li>
+									</ul>
+								</section><!--//education-section-->
+								<section class="skills-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
+									<ul class="list-unstyled resume-lang-list">
+										<li class="mb-2">English <span class="text-muted">(Middle level)</span></li>
+										<li class="mb-2">German <span class="text-muted">(Basic)</span></li>
+										<li class="mb-2">Hungarian <span class="text-muted">(Mother tongue)</span></li>
+									</ul>
+								</section><!--//certificates-section-->
+								<section class="skills-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
+									<ul class="list-unstyled resume-interests-list mb-0">
+										<li class="mb-2">IT</li>
+										<li class="mb-2">Snowboarding</li>
+										<li class="mb-2">Photography</li>
+										<li class="mb-2">Machine Learning</li>
+										<li>Travelling</li>
+									</ul>
+								</section><!--//certificates-section-->
+
+							</aside><!--//resume-aside-->
+						</div><!--//row-->
+					</div><!--//resume-body-->
+					<hr>
+					<div class="resume-footer text-center">
+						<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+							<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://github.com/kornel1991"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">https://github.com/kornel1991</span></a></li>
+							<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://www.linkedin.com/in/korn%C3%A9l-t%C3%B3th-1aa187148/"><i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted"></span></a></li>
+							<li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="https://twitter.com/tkornel19"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>
+						</ul>
+					</div><!--//resume-footer-->
+				</article>
+			</div><!--//container-->
+</div><!--//main-wrapper-->
+{% endblock %}
