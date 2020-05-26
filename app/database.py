@@ -11,8 +11,6 @@ c.execute("""CREATE TABLE blog_post (
                 content text NOT NULL
                 )""")
 
-# c.execute("INSERT INTO blog_post VALUES (2, 'Alfddff', 'Aedsdfg', 'Pista Jeno', '2019-25-21', 'sidjifgdjgidfjg') ")
-# c.execute("SELECT id, title, subtitle, author, date_posted, content FROM blog_post ORDER BY date_posted DESC")
 print(c.fetchall())
 conn.commit()
 conn.close()

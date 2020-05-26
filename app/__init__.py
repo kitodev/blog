@@ -11,8 +11,8 @@ mail = Mail()
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 465
 app.config["MAIL_USE_SSL"] = True
-app.config["MAIL_USERNAME"] = 'tkornel19'
-app.config["MAIL_PASSWORD"] = 'Jancsi18912323.1*'
+app.config["MAIL_USERNAME"] = ''
+app.config["MAIL_PASSWORD"] = ''
 
 app.config['SECRET_KEY'] = '8d5c6dc3a01b5e4e85474cf28243972681655216592491a8'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
