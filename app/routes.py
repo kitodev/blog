@@ -9,16 +9,16 @@ from flask_login import login_user
 
 posts = [
     {
-    'title':'Valami1',
-    'subtitle': 'Valami',
+    'title':'',
+    'subtitle': '',
     'author': 'Kornel Toth',
-    'content': 'djfgdfgdiogjdfigjdfogidjfig jidg difgjdi jdifgji'
+    'content': ''
     },
     {
-    'title':'Valami1',
-    'subtitle': 'Valami',
+    'title':'',
+    'subtitle': '',
     'author': 'Kornel Toth',
-    'content': 'djfgdfgdiogjdfigjdfogidjfig jidg difgjdi jdifgji'
+    'content': ''
     },
 ]
 
@@ -99,7 +99,7 @@ def contact():
             flash('All fields are required.')
             return render_template('contact.html',title="Contact", form=form)
         else:
-            message = Message(form.name.data,  sender='tkornel19@gmail.com', recipients='[tkornel19@gmail.com]',)
+            message = Message(form.name.data,  sender='', recipients='',)
             message.body = """
             From %s <%s>
             %s
